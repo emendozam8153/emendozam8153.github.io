@@ -1,0 +1,68 @@
+:root {
+	--rojo: #E50914;
+	--fondo: #d8d8d7 100%;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v8/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.logo{
+border-radius: 5px;
+}
+.blanco{
+    color: rgb(255, 255, 255);
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+}
+body{
+    background-image: url(../IMG/fondo2.jpeg);
+}
+.verde{
+color: rgb(194, 243, 201);
+}
+.enca{
+    display: inline;
+
+}
+.barra{
+    background:rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: flex;
+    margin-right: 20px;
+
+}
+.titulo{
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+}
+nav, .as{
+    color: white;
+    text-decoration: none;
+    float:right;
+    padding: 8px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+
+}
+.amarillo{
+    color: yellow;
+}
+@media(min-width:360px){
+    .titulo{
+    padding: 2px;
+    margin-left: 10px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    }
+}
